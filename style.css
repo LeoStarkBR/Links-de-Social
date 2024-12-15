@@ -1,0 +1,144 @@
+body {
+  font-family: inter;
+  font-weight: 400, 600, 700;
+  background-color: rgb(16, 16, 16);
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+a,
+h1,
+h2,
+p {
+  text-decoration: none;
+  color: white;
+}
+
+.usercountry {
+  color: rgb(142, 171, 70);
+}
+.userfoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.userlink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo h2 {
+  margin-bottom: 5px;
+}
+
+.userinfo p {
+  margin-bottom: 16px;
+  margin-top: 5px;
+}
+
+.git {
+  display: block;
+  margin: auto;
+  width: 245px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.git:hover {
+  background-color: white;
+  color: black;
+}
+
+.insta {
+  display: block;
+  margin: auto;
+  width: 245px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.front {
+  display: block;
+  margin: auto;
+  width: 245px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.twitter {
+  display: block;
+  margin: auto;
+  width: 245px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.linkedin {
+  display: block;
+  margin: auto;
+  width: 245px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.front:hover {
+  background-color: white;
+  color: black;
+}
+
+.insta:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkedin:hover {
+  background-color: white;
+  color: black;
+}
+
+.twitter:hover {
+  background-color: white;
+  color: black;
+}
+
+.container {
+  padding: 5px;
+  background-color: rgb(24, 24, 24);
+  width: 300px; /* O container ocupará 80% da largura do elemento pai */
+  margin-top: 50px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
